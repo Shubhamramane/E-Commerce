@@ -1,0 +1,93 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+
+.homeSlider {
+    padding: 30px 0;
+}
+
+.home_Slider_Main {
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    height: 50px !important;
+    width: 50px !important;
+    top: 47%;
+    border-radius: 50%;
+    background: #F2F3F4 !important;
+    z-index: 100 !important;
+    transition: all 0.2 ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.slick-arrow.slick-next {
+    right: 2% !important;
+}
+
+.slick-arrow.slick-prev {
+    left: 2% !important;
+}
+
+.slick-prev:before {
+    content: "\f104";
+    font-family: FontAwesome !important;
+    font-size: 30px;
+    color: #000;
+}
+
+.slick-next:before {
+    content: "\f105";
+    font-family: FontAwesome !important;
+    font-size: 30px;
+    color: #000;
+}
+
+.slick-arrow:hover {
+    background: #3bb77e !important;
+}
+
+.slick-arrow:hover::before {
+    color: #fff;
+}
+
+.home_Slider_Main .slick-dots {
+    position: absolute;
+    bottom: 30px !important;
+}
+
+.home_Slider_Main .slick-dots button::before {
+    height: 10px !important;
+    width: 10 !important;
+    font-size: 16px;
+}
+
+.slick-active button::before {
+    color: #3bb77e !important;
+}
+
+.home_Slider_Main .item {
+    position: relative;
+}
+
+.home_Slider_Main .item .info {
+    position: absolute;
+    top: 16%;
+    left: 8%;
+    z-index: 100;
+}
+
+.home_Slider_Main .item .info h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.home_Slider_Main .item .info p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #7E7E7E
+}
+

@@ -1,0 +1,96 @@
+.homeProducts {
+    padding: 25px 0px;
+}
+
+.list-item {
+    margin-left: auto;
+}
+
+.filterTab li {
+    margin-left: 20px;
+}
+
+.filterTab li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    font-weight: 600;
+}
+
+.filterTab li a:hover {
+    transform: translateY(-10px);
+    color: #3bb77e
+}
+
+.homeProducts .productRow {
+    display: flex;
+    padding: 30px 0px;
+    margin: 0px -15px;
+    flex-wrap: wrap;
+}
+
+.homeProducts .productRow .item {
+    width: 20%;
+    padding: 15px 10px;
+}
+
+.homeProductsRow2 .prodSlider .item {
+    padding: 15px 5px;
+    padding-right: 25px !important;
+}
+
+.homeProductsRow2 .prodSlider .slick-current .productThumb {
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16), 3px 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+.topProductsSection {
+    padding: 35px 0px;
+}
+
+.newsLetterSection {
+    width: 100%;
+    height: auto;
+}
+
+.newsLetterSection .box {
+    background: url(../../Assets/image/banner-10.png);
+    width: 100%;
+    height: auto;
+    padding: 60px 80px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.newsLetterSection .box .info {
+    width: 55%;
+}
+
+.newsLetterSection .box .info h2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    opacity: 0.8;
+}
+
+.newsLetterSection .box .info p{
+    font-size: 22px;
+    opacity: 0.8;
+}
+
+.newsLetterSection .box .img {
+    width: 45%;
+}
+
+.newsLetterSection .box .img img{
+  position: relative;
+  top: 60px;
+}
+
+.newsLetterSection .box .newsLetterBanner{
+    position: relative !important;
+    left: 0px !important;
+    bottom: inherit;
+}
